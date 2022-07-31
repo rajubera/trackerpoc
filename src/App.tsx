@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header>
         <a target="_blank">
-          <img src="/clockify.webp" className="logo" alt="Vite logo" />
+          <img src="./clockify.webp" className="logo" alt="Vite logo" />
         </a>
         <h1>Face Authentication & Screenshot Recorder</h1>
         {user && <h3> Welcome {user?.name}</h3>}
